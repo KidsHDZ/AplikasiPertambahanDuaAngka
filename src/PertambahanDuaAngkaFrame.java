@@ -178,20 +178,7 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_txtAngka2ActionPerformed
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
-        try {
-        // Ambil angka dari txtAngka1 dan txtAngka2
-        int angka1 = Integer.parseInt(txtAngka1.getText());
-        int angka2 = Integer.parseInt(txtAngka2.getText());
-
-        // Lakukan penjumlahan
-        int hasil = angka1 + angka2;
-
-        // Tampilkan hasil penjumlahan di txtHasil
-        txtHasil.setText(String.valueOf(hasil));
-    } catch (NumberFormatException e) {
-        // Tampilkan pesan error jika input bukan angka
-        txtHasil.setText("Input tidak valid");
-        }
+ 
     }//GEN-LAST:event_btnTambahActionPerformed
 
     private void txtHasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtHasilActionPerformed
